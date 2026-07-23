@@ -106,7 +106,19 @@ comprehensive financial dataset combines transaction records, customer informati
 
 <h2><a class="anchor" id="tools- &amp;-technologies"></a>Tools &amp; Technologies</h2>
 
-* SQL (Common Table Expressions, Joins, Filtering, Window Functions, Aggregate Functions, Stored Procedures, Views)
+* SQL
+• CTEs
+• Joins
+• Window Functions
+• Aggregate Functions
+• Views
+• Stored Procedures
+
+MySQL
+
+Excel
+
+Git & GitHub
 * Excel
 * GitHub
 
