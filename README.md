@@ -304,7 +304,6 @@ Customers were segmented based on income, spending, debt, and credit score.
 * <strong>Monitor key business KPIs</strong> such as Total Spending, Average Transaction Value, Customer Lifetime Value, and Churn Rate through interactive dashboards to support data-driven decision-making.
 * <strong>Continuously update customer segmentation and CLV models</strong> as new transaction data becomes available to ensure business strategies remain relevant and effective.
 
-\---
 
 <h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
 
