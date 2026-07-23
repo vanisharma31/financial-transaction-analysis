@@ -174,6 +174,16 @@ financial-transaction-analysis/
 
 <h2><a class="anchor" id="research-&amp;-key-findings"></a>Research Questions &amp; Key Findings</h2>
 
+
+<p> <strong>Research Questions</strong> <br>
+<ul>
+  <li>Which customers are the most valuable based on spending behavior and Customer Lifetime Value (CLV)?</li>
+  <li>How can customers be segmented for targeted marketing and personalized services?</li>
+  <li>Which customers show signs of churn based on transaction history?</li>
+  <li>What actionable business insights can be derived from customer transactions to support strategic decision-making?</li>
+</ul>
+</p>
+
 <p>The analysis provides insights into customer demographics, spending behavior, customer value, segmentation, churn, and overall business performance.</p>
 
 <strong>Customer Demographics</strong> 
@@ -282,15 +292,6 @@ Customers were segmented based on income, spending, debt, and credit score.
     <td>56,636.18</td>
   </tr>
 </table> </p>
-
-<p> <strong>Research Questions</strong> <br>
-<ul>
-  <li>Which customers are the most valuable based on spending behavior and Customer Lifetime Value (CLV)?</li>
-  <li>How can customers be segmented for targeted marketing and personalized services?</li>
-  <li>Which customers show signs of churn based on transaction history?</li>
-  <li>What actionable business insights can be derived from customer transactions to support strategic decision-making?</li>
-</ul>
-</p>
 
 <p> <strong>Key Insights</strong> <br>
 <ul>
