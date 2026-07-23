@@ -1,4 +1,4 @@
-# 🧾 Financial Transaction Analysis – Customer Analytics
+# 🧾 Financial Transaction Customer Analytics
 
 *Help a financial institution understand customer behaviour, identify valuable customers, predict churn, and improve customer engagement using SQL.*
 
