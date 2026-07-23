@@ -196,7 +196,7 @@ financial-transaction-analysis/
 * The average transaction value was 46.77.
 
 <strong>Customer Segmentation</strong>
-Customers were segmented based on income, spending, debt, and credit score.
+* Customers were segmented based on income, spending, debt, and credit score.
 <table>
   <thead>
     <tr>
