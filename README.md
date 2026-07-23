@@ -1,6 +1,6 @@
 # 🧾 Financial Transaction Customer Analytics
 
-*Help a financial institution understand customer behaviour, identify valuable customers, predict churn, and improve customer engagement using SQL.*
+*Analyze financial transaction data to understand customer behavior, identify high-value customers, detect churn risk, and support data-driven business decisions using SQL.*
 
 
 
