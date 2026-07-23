@@ -187,13 +187,19 @@ financial-transaction-analysis/
 <p>The analysis uncovered valuable insights into customer behavior, spending patterns, and overall business performance.</p>
 
 <p> <strong>Customer Demographics</strong> <br>
-* Analyzed customer demographics including age, gender, annual income, debt, and credit score.
-* The average annual income was 45,011.92, with an average credit score of 714.03.</p>
+<ul>
+Analyzed customer demographics including age, gender, annual income, debt, and credit score.
+The average annual income was 45,011.92, with an average credit score of 714.03.
+</ul>
+</p>
 
 <p> <strong>Spending Analysis</strong> <br>
-* Analyzed spending trends across customers using transaction history.
-* The dataset contains 1,131 customers with a total spending of 17,799,606.40.
-* The average transaction value was 46.77.</p>
+<ul>
+Analyzed spending trends across customers using transaction history.
+The dataset contains 1,131 customers with a total spending of 17,799,606.40.
+The average transaction value was 46.77.
+</ul>
+</p>
 
 <p> <strong>Customer Segmentation</strong> <br>
 Customers were segmented based on income, spending, debt, and credit score.</p>
@@ -237,20 +243,32 @@ Customers were segmented based on income, spending, debt, and credit score.</p>
 <p>The majority of customers (74.83%) belong to the Regular segment, while VIP customers account for only 2.30%, indicating a relatively small group of high-value customers.</p>
 
 <p> <strong>Customer Lifetime Value (CLV)</strong> <br>
-* Calculated Total Spending, Average Spending, Transaction Frequency, Relationship Duration, and Estimated CLV.
-* Ranked customers using RANK(), DENSE_RANK(), and NTILE() to identify high-value customers.</p>
+<ul>
+  Calculated Total Spending, Average Spending, Transaction Frequency, Relationship Duration, and Estimated CLV.
+  Ranked customers using RANK(), DENSE_RANK(), and NTILE() to identify high-value customers.
+</ul>
+</p>
 
 <p> <strong>Customer Behaviour</strong> <br>
-* Analyzed spending patterns across merchants, merchant categories, cities, transaction methods, and card types.
-* Evaluated customer activity using monthly and daily spending trends.</p>
+<ul>
+  Analyzed spending patterns across merchants, merchant categories, cities, transaction methods, and card types.
+  Evaluated customer activity using monthly and daily spending trends.
+</ul>
+</p>
+
 
 
 <p> <strong>Churn Analysis</strong> <br>
-* Classified customers as Active, At Risk, or Churned using transaction inactivity rules.
-* Based on the current business rules, 1,128 customers were classified as active.</p>
+ <ul>
+ Classified customers as Active, At Risk, or Churned using transaction inactivity rules.
+ Based on the current business rules, 1,128 customers were classified as active.</p>
+ </ul>
+ </p>
 
 <p> <strong>Customer Acquisition</strong> <br>
-* Evaluated monthly and yearly customer acquisition trends using account opening dates.
+<ul> Evaluated monthly and yearly customer acquisition trends using account opening dates.
+</ul>
+</p>
 
 <p> <strong>Business KPIs</strong> <br>
 <table>
@@ -299,6 +317,7 @@ Customers were segmented based on income, spending, debt, and credit score.</p>
   <li>The dataset contains 17.8 million in total customer spending across 1,131 customers.</li>
   <li>Business KPIs provide a comprehensive overview of customer activity and spending behavior.</li>
 </ul>
+</p>
 
 \---
 
