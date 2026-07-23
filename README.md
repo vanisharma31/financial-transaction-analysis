@@ -293,10 +293,12 @@ Customers were segmented based on income, spending, debt, and credit score.</p>
 </table> </p>
 
 <p> <strong>Key Insights</strong> <br>
-* The customer base is dominated by the Regular segment (74.83%), with a relatively small VIP segment (2.30%).
-* Customers have an average annual income of 45,011.92 and an average credit score of 714.03, indicating generally healthy credit profiles.
-*  The dataset contains 17.8 million in total customer spending across 1,131 customers, with an average transaction value of 46.77.
-* Business KPIs provide a comprehensive overview of customer activity, financial health, and spending behavior, enabling data-driven decision-making.
+<ul>
+  <li>The customer base is dominated by the Regular segment (74.83%), with a relatively small VIP segment (2.30%).</li>
+  <li>Customers have an average annual income of 45,011.92 and an average credit score of 714.03.</li>
+  <li>The dataset contains 17.8 million in total customer spending across 1,131 customers.</li>
+  <li>Business KPIs provide a comprehensive overview of customer activity and spending behavior.</li>
+</ul>
 
 \---
 
