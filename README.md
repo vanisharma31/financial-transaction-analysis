@@ -2,7 +2,7 @@
 
 *Help a financial institution understand customer behaviour, identify valuable customers, predict churn, and improve customer engagement using SQL.*
 
-\---
+
 
 ## 📌 Table of Contents
 
