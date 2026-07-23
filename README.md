@@ -317,6 +317,6 @@ Customers were segmented based on income, spending, debt, and credit score.</p>
 **Vani Sharma**   
 Data Analyst  
 📧 Email: vanisharma2014@gmail.com  
-🔗 [LinkedIn](www.linkedin.com/in/vani-sharma-82a790221) 
+🔗 [LinkedIn](www.linkedin.com/in/vani-sharma-82a790221)
 
 
