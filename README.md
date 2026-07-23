@@ -19,7 +19,7 @@
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-Financial institutions generate millions of customer transactions every day. Analyzing this data helps understand customer behavior, improve customer retention, identify high-value customers, and support data-driven business decisions. This project performs an end-to-end customer analytics workflow using SQL, covering customer demographics, spending patterns, customer segmentation, customer lifetime value (CLV), churn analysis, customer acquisition, and executive business KPIs.
+Financial institutions generate millions of customer transactions every day. Analyzing this data helps understand customer behavior, improve customer retention, identify high-value customers, and support data-driven business decisions. This project performs an end-to-end customer analytics workflow using SQL, covering customer demographics, spending patterns, customer segmentation, customer lifetime value (CLV), churn analysis, customer acquisition, and business KPIs.
 
 
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
