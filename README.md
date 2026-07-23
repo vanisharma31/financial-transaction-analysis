@@ -106,7 +106,7 @@ comprehensive financial dataset combines transaction records, customer informati
 
 <h2><a class="anchor" id="tools- &amp;-technologies"></a>Tools &amp; Technologies</h2>
 
-* SQL
+SQL
 • CTEs
 • Joins
 • Window Functions
@@ -114,13 +114,10 @@ comprehensive financial dataset combines transaction records, customer informati
 • Views
 • Stored Procedures
 
-MySQL
-
 Excel
 
 Git & GitHub
-* Excel
-* GitHub
+
 
 
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
