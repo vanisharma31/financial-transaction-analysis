@@ -286,10 +286,9 @@ Customers were segmented based on income, spending, debt, and credit score.
 
 <p> <strong>Key Insights</strong> <br>
 <ul>
-  <li>The customer base is dominated by the Regular segment (74.83%), with a relatively small VIP segment (2.30%).</li>
+  <li>The customer base is dominated by the Regular segment (74.83%), while VIP customers account for only 2.30%, indicating opportunities for targeted retention strategies.</li>
   <li>Customers have an average annual income of 45,011.92 and an average credit score of 714.03.</li>
   <li>The dataset contains 17.8 million in total customer spending across 1,131 customers.</li>
-  <li>The analysis identified a relatively small VIP customer base, highlighting opportunities for personalized retention strategies.</li>
 </ul>
 </p>
 
