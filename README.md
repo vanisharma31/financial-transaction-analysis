@@ -16,13 +16,11 @@
 * <a href="#final-recommendations">Final Recommendations</a>
 * <a href="#author- &amp;-contact">Author \& Contact</a>
 
-\---
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
 Financial institutions generate millions of customer transactions every day. Analyzing this data helps understand customer behavior, improve customer retention, identify high-value customers, and support data-driven business decisions. This project performs an end-to-end customer analytics workflow using MySQL and Excel, covering customer demographics, spending patterns, customer segmentation, customer lifetime value (CLV), churn analysis, customer acquisition, and executive business KPIs.
 
-\---
 
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
 
@@ -36,7 +34,6 @@ This project aims to:
 * Measure customer acquisition trends and business growth.
 * Create business KPIs to support executive decision-making.
 
-\---
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
@@ -106,7 +103,6 @@ comprehensive financial dataset combines transaction records, customer informati
 
 
 
-\---
 
 <h2><a class="anchor" id="tools- &amp;-technologies"></a>Tools &amp; Technologies</h2>
 
@@ -114,7 +110,6 @@ comprehensive financial dataset combines transaction records, customer informati
 * Excel
 * GitHub
 
-\---
 
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
@@ -169,7 +164,6 @@ financial-transaction-analysis/
 
 ```
 
-\---
 
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning &amp; Preparation</h2>
 
@@ -177,7 +171,6 @@ financial-transaction-analysis/
 * Handled missing and blank values using NULLIF().
 * Checked for duplicate records and validated data consistency across the three tables.
 
-\---
 
 
 <h2><a class="anchor" id="research-&amp;-key-findings"></a>Research Questions &amp; Key Findings</h2>
@@ -300,7 +293,6 @@ Customers were segmented based on income, spending, debt, and credit score.
 </ul>
 </p>
 
-\---
 
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
