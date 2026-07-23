@@ -36,10 +36,9 @@ This project aims to:
 
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
+This project uses a comprehensive financial dataset containing transaction records, customer information, and card data from a banking institution spanning the 2010s.
 
-comprehensive financial dataset combines transaction records, customer information, and card data from a banking institution, spanning across the 2010s decade.
-
-1. <strong>User Data</strong>
+1\. <strong>User Data</strong>
 
 &#x20;  Contains customer demographic and financial information.
 
