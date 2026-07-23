@@ -60,7 +60,7 @@ comprehensive financial dataset combines transaction records, customer informati
 
 
 
-2\. <strong>Card Information</strong>
+2\. <strong>Card Data</strong>
 
 &#x20;  Contains customer card and account information.
 
