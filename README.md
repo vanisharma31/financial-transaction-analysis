@@ -9,10 +9,10 @@
 * <a href="#overview">Overview</a>
 * <a href="#business-problem">Business Problem</a>
 * <a href="#dataset">Dataset</a>
-* <a href="#tools--technologies">Tools \& Technologies</a>
+* <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
 * <a href="#project-structure">Project Structure</a>
 * <a href="#data-cleaning--preparation">Data Cleaning \& Preparation</a>
-* <a href="#research-\&-key-findings">Research Questions \& Key Findings</a>
+* <a href="#research- &amp;-key-findings">Research Questions \& Key Findings</a>
 * <a href="#final-recommendations">Final Recommendations</a>
 * <a href="#author--contact">Author \& Contact</a>
 
@@ -108,7 +108,7 @@ comprehensive financial dataset combines transaction records, customer informati
 
 \---
 
-<h2><a class="anchor" id="tools--technologies"></a>Tools \& Technologies</h2>
+<h2><a class="anchor" id="tools- &amp;-technologies"></a>Tools &amp; Technologies</h2>
 
 * SQL (Common Table Expressions, Joins, Filtering, Window Functions, Aggregate Functions, Stored Procedures, Views)
 * Excel
@@ -171,7 +171,7 @@ financial-transaction-analysis/
 
 \---
 
-<h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning \& Preparation</h2>
+<h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning &amp; Preparation</h2>
 
 * Verified and standardized data types for dates, numeric values, and text fields to support accurate calculations and analysis.
 * Handled missing and blank values using NULLIF().
@@ -182,7 +182,7 @@ financial-transaction-analysis/
 \---
 
 
-<h2><a class="anchor" id="research-\&-key-findings"></a>Research Questions \& Key Findings</h2>
+<h2><a class="anchor" id="research-&amp;-key-findings"></a>Research Questions &amp; Key Findings</h2>
 
 <p>The analysis uncovered valuable insights into customer behavior, spending patterns, and overall business performance.</p>
 
