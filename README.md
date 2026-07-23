@@ -167,7 +167,7 @@ financial-transaction-analysis/
 
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning &amp; Preparation</h2>
 
-* Verified and standardized data types for dates, numeric values, and text fields to support accurate calculations and analysis.
+* Validated and standardized data types for dates, numeric values, and text fields to support accurate calculations and analysis.
 * Handled missing and blank values using NULLIF().
 * Checked for duplicate records and validated data consistency across the three tables.
 
@@ -175,7 +175,7 @@ financial-transaction-analysis/
 
 <h2><a class="anchor" id="research-&amp;-key-findings"></a>Research Questions &amp; Key Findings</h2>
 
-<p>The analysis uncovered valuable insights into customer behavior, spending patterns, and overall business performance.</p>
+<p>The analysis provides insights into customer demographics, spending behavior, customer value, segmentation, churn, and overall business performance.</p>
 
 <strong>Customer Demographics</strong> 
 * Analyzed customer demographics including age, gender, annual income, debt, and credit score.
@@ -183,7 +183,7 @@ financial-transaction-analysis/
 
 <strong>Spending Analysis</strong> 
 * Analyzed spending trends across customers using transaction history.
-* The dataset contains 1,131 customers with a total spending of 17,799,606.40.
+* Analyzed transactions for 1,131 customers with a total spending of 17,799,606.40.
 * The average transaction value was 46.77.
 
 <strong>Customer Segmentation</strong>
@@ -228,7 +228,7 @@ Customers were segmented based on income, spending, debt, and credit score.
 <p>The majority of customers (74.83%) belong to the Regular segment, while VIP customers account for only 2.30%, indicating a relatively small group of high-value customers.</p>
 
 <strong>Customer Lifetime Value (CLV)</strong> 
-* Calculated Total Spending, Average Spending, Transaction Frequency, Relationship Duration, and Estimated CLV.
+* Calculated customer lifetime metrics including: Total Spending, Average Spending, Transaction Frequency, Relationship Duration, and Estimated CLV.
 * Ranked customers using RANK(), DENSE_RANK(), and NTILE() to identify high-value customers.
 
 
@@ -239,7 +239,7 @@ Customers were segmented based on income, spending, debt, and credit score.
 
 <strong>Churn Analysis</strong>
 * Classified customers as Active, At Risk, or Churned using transaction inactivity rules.
-* Based on the current business rules, 1,128 customers were classified as active.
+* Based on the defined business rules, 1,128 customers were classified as active.
 
 <strong>Customer Acquisition</strong>
 * Evaluated monthly and yearly customer acquisition trends using account opening dates.
@@ -289,7 +289,7 @@ Customers were segmented based on income, spending, debt, and credit score.
   <li>The customer base is dominated by the Regular segment (74.83%), with a relatively small VIP segment (2.30%).</li>
   <li>Customers have an average annual income of 45,011.92 and an average credit score of 714.03.</li>
   <li>The dataset contains 17.8 million in total customer spending across 1,131 customers.</li>
-  <li>Business KPIs provide a comprehensive overview of customer activity and spending behavior.</li>
+  <li>The analysis identified a relatively small VIP customer base, highlighting opportunities for personalized retention strategies.</li>
 </ul>
 </p>
 
