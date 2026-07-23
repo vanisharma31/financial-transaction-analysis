@@ -11,11 +11,12 @@ GROUP BY client_id
 ORDER BY total_transactions DESC
 LIMIT 10;
 
+
 -- By Total Spending
 SELECT client_id, ROUND(SUM(amount),2) AS total_spending
 FROM transactions_data
 GROUP BY client_id
-ORDER BY total_transactions DESC
+ORDER BY total_spending DESC
 LIMIT 10;
 
 

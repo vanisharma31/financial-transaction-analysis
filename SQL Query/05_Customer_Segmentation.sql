@@ -2,6 +2,8 @@
 -- Customer Segmentation 
 -- =============================================================
 
+
+-- CUSTOMER SEGMENTATION BASED ON INCOME, SPENDING, DEBT, AND CREDIT SCORE
  WITH customer_summary AS (
  SELECT u.id, u.yearly_income, u.credit_score, u.total_debt,
  SUM(t.amount) AS total_spending, COUNT(t.id) AS total_transactions, AVG(t.amount) AS avg_transaction
@@ -19,6 +21,8 @@
  END AS customer_segment 
  FROM customer_summary;
  
+ 
+ -- DISTRIBUTION OF CUSTOMERS ACROSS SEGMENTS
  WITH customer_summary AS (
  SELECT u.id, u.yearly_income, u.credit_score, u.total_debt,
  SUM(t.amount) AS total_spending, COUNT(t.id) AS total_transactions, AVG(t.amount) AS avg_transaction
@@ -26,7 +30,7 @@
  JOIN transactions_data t on u.id=t.client_id
  GROUP BY u.id, u.yearly_income, u.credit_score, u.total_debt
  ) 
- SELECT customer_segment, COUNT(*) AS total_customers
+ SELECT customer_segment, COUNT(*) AS total_customers, ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER (), 2) AS percentage_total_customer
  FROM(SELECT *,
  CASE 
  WHEN yearly_income >=100000 AND total_spending >= 50000 THEN 'VIP'
@@ -38,6 +42,8 @@
  FROM customer_summary) x
  GROUP BY customer_segment;
  
+ 
+-- CUSTOMER SEGMENTATION INTO 4 QUARTILES BASED ON TOTAL SPENDING
  WITH customer_summary AS (
  SELECT u.id, SUM(t.amount) AS total_spending
  FROM users_data u 
@@ -49,6 +55,8 @@
  NTILE(4) OVER(ORDER BY total_spending DESC) AS spending_quartile
  FROM customer_summary;
  
+ 
+ -- CUSTOMER SEGMENTATION & SEPENDING GROUP ANALYSIS 
   WITH customer_summary AS (
  SELECT u.id, u.yearly_income, u.credit_score, u.total_debt,
  SUM(t.amount) AS total_spending
