@@ -1,6 +1,6 @@
 # 🧾 Financial Transaction Customer Analytics
 
-*Analyze financial transaction data to understand customer behavior, identify high-value customers, detect churn risk, and support data-driven business decisions using SQL.*
+*Analyze financial transaction data to understand customer behavior, identify high-value customers, detect churn risk and support data-driven business decisions using SQL.*
 
 
 
@@ -19,7 +19,7 @@
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-Financial institutions generate millions of customer transactions every day. Analyzing this data helps understand customer behavior, improve customer retention, identify high-value customers, and support data-driven business decisions. This project performs an end-to-end customer analytics workflow using SQL, covering customer demographics, spending patterns, customer segmentation, customer lifetime value (CLV), churn analysis, customer acquisition, and business KPIs.
+Financial institutions generate millions of customer transactions every day. Analyzing this data helps understand customer behavior, improve customer retention, identify high-value customers and support data-driven business decisions. This project performs an end-to-end customer analytics workflow using SQL, covering customer demographics, spending patterns, customer segmentation, customer lifetime value (CLV), churn analysis, customer acquisition, and business KPIs.
 
 
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
@@ -36,7 +36,7 @@ This project aims to:
 
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
-This project uses a comprehensive financial dataset containing transaction records, customer information, and card data from a banking institution spanning the 2010s.
+This project uses a comprehensive financial dataset containing transaction records, customer information and card data from a banking institution spanning the 2010s.
 
 1\. <strong>User Data</strong>
 
@@ -166,7 +166,7 @@ financial-transaction-analysis/
 
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning &amp; Preparation</h2>
 
-* Validated and standardized data types for dates, numeric values, and text fields to support accurate calculations and analysis.
+* Validated and standardized data types for dates, numeric values and text fields to support accurate calculations and analysis.
 * Handled missing and blank values using NULLIF().
 * Checked for duplicate records and validated data consistency across the three tables.
 
@@ -184,10 +184,10 @@ financial-transaction-analysis/
 </ul>
 </p>
 
-<p>The analysis provides insights into customer demographics, spending behavior, customer value, segmentation, churn, and overall business performance.</p>
+<p>The analysis provides insights into customer demographics, spending behavior, customer value, segmentation, churn and overall business performance.</p>
 
 <strong>Customer Demographics</strong> 
-* Analyzed customer demographics including age, gender, annual income, debt, and credit score.
+* Analyzed customer demographics including age, gender, annual income, debt and credit score.
 * The average annual income was 45,011.92, with an average credit score of 714.03.
 
 <strong>Spending Analysis</strong> 
@@ -196,7 +196,7 @@ financial-transaction-analysis/
 * The average transaction value was 46.77.
 
 <strong>Customer Segmentation</strong>
-* Customers were segmented based on income, spending, debt, and credit score.
+* Customers were segmented based on income, spending, debt and credit score.
 <table>
   <thead>
     <tr>
@@ -237,12 +237,12 @@ financial-transaction-analysis/
 <p>The majority of customers (74.83%) belong to the Regular segment, while VIP customers account for only 2.30%, indicating a relatively small group of high-value customers.</p>
 
 <strong>Customer Lifetime Value (CLV)</strong> 
-* Calculated customer lifetime metrics including: Total Spending, Average Spending, Transaction Frequency, Relationship Duration, and Estimated CLV.
-* Ranked customers using RANK(), DENSE_RANK(), and NTILE() to identify high-value customers.
+* Calculated customer lifetime metrics including: Total Spending, Average Spending, Transaction Frequency, Relationship Duration and Estimated CLV.
+* Ranked customers using RANK(), DENSE_RANK() and NTILE() to identify high-value customers.
 
 
 <strong>Customer Behaviour</strong>
-* Analyzed spending patterns across merchants, merchant categories, cities, transaction methods, and card types.
+* Analyzed spending patterns across merchants, merchant categories, cities, transaction methods and card types.
 * Evaluated customer activity using monthly and daily spending trends.
 
 
@@ -304,12 +304,12 @@ financial-transaction-analysis/
 
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
-* <strong>Prioritize high-value customers</strong> by offering personalized rewards, exclusive benefits, and loyalty programs to improve customer retention and maximize Customer Lifetime Value (CLV).
+* <strong>Prioritize high-value customers</strong> by offering personalized rewards, exclusive benefits and loyalty programs to improve customer retention and maximize Customer Lifetime Value (CLV).
 * <strong>Develop targeted strategies for each customer segment.</strong> Design premium services for VIP and Premium customers, while creating engagement campaigns for Budget and Risk segments.
 * <strong>Implement proactive churn management</strong> by regularly monitoring inactive customers and launching timely retention campaigns before they become churned.
-* <strong>Leverage spending behavior insights</strong> to recommend relevant merchant categories, products, and offers based on customer preferences and transaction history.
+* <strong>Leverage spending behavior insights</strong> to recommend relevant merchant categories, products and offers based on customer preferences and transaction history.
 * <strong>Optimize customer acquisition strategies</strong> by analyzing acquisition trends and focusing marketing efforts on the most effective time periods and customer segments.
-* <strong>Monitor key business KPIs</strong> such as Total Spending, Average Transaction Value, Customer Lifetime Value, and Churn Rate through interactive dashboards to support data-driven decision-making.
+* <strong>Monitor key business KPIs</strong> such as Total Spending, Average Transaction Value, Customer Lifetime Value and Churn Rate through interactive dashboards to support data-driven decision-making.
 * <strong>Continuously update customer segmentation and CLV models</strong> as new transaction data becomes available to ensure business strategies remain relevant and effective.
 
 
