@@ -110,6 +110,15 @@ NTILE(4) OVER(ORDER BY(total_spending*(total_transactions/NULLIF(months_active,0
 FROM metrics;
 
 
-
+-- CUSTOMER ACQUISITON
+CREATE OR REPLACE VIEW vw_customer_acquisition AS
+SELECT
+YEAR(acct_open_date) year,
+MONTH(acct_open_date) month,
+COUNT(*) customers_acquired
+FROM cards_data
+GROUP BY
+YEAR(acct_open_date),
+MONTH(acct_open_date);
 
 
