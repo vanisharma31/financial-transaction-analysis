@@ -25,7 +25,7 @@ FROM transactions_data
 GROUP BY client_id
 )
 SELECT COUNT(*) total_customers, SUM(customer_status='Active') active_customers,
-ROUND(SUM(total_spending),2) total_revenue,
+ROUND(SUM(total_spending),2) total_spending,
 ROUND(AVG(avg_transaction),2) avg_transaction,
 ROUND(AVG(estimated_clv),2) avg_clv,
 ROUND(AVG(credit_score),0) avg_credit_score,
