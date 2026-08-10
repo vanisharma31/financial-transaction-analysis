@@ -315,8 +315,8 @@ financial-transaction-analysis/
 <p> <strong>Key Insights</strong> <br>
 <ul>
   <li>The customer base is dominated by the Regular segment (74.83%), while VIP customers account for only 2.30%, indicating opportunities for targeted retention strategies.</li>
-  <li>Customers have an average annual income of 45,011.92 and an average credit score of 714.03.</li>
-  <li>The dataset contains 17.8 million in total customer spending across 1,131 customers.</li>
+  <li>Spending and CLV analysis helps identify customers with greater value and different behavioral patterns.</li>
+  <li>Customer acquisition and activity trends provide opportunities to improve engagement and retention strategies.</li>
 </ul>
 </p>
 
