@@ -321,10 +321,15 @@ financial-transaction-analysis/
 </p>
 
 <h2><a class="anchor" id="power-bi-dashboards"></a>Power BI Dashboards</h2>
+
 ![Executive Dashboard](Screenshots/executive_dashboard.png)
+
 ![Customer Profile](Screenshots/customer_profile.png)
+
 ![Spending Analysis](Screenshots/spending_analysis.png)
+
 ![Customer Insights](Screenshots/customer_insights.png)
+
 ![Churn Analysis](Screenshots/churn_analysis.png)
 
 
