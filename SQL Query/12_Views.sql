@@ -7,7 +7,7 @@ CREATE OR REPLACE VIEW vw_executive_dashboard AS
 WITH customer_metrics AS (
 SELECT u.id, SUM(t.amount) total_spending, AVG(t.amount) avg_transaction, COUNT(*) total_transactions,
 TIMESTAMPDIFF(MONTH, MIN(c.acct_open_date), MAX(t.date)) months_active,
-ROUND(SUM(t.amount) *(COUNT(*)/NULLIF(TIMESTAMPDIFF(MONTH,MIN(c.acct_open_date),MAX(t.date)),0)),2) estimated_clv,
+ROUND(AVG(t.amount) *(COUNT(*) /NULLIF(TIMESTAMPDIFF(MONTH,MIN(c.acct_open_date),MAX(t.date)),0)) * 12,2) estimated_clv,
 u.credit_score, u.yearly_income, u.total_debt
 FROM users_data u
 JOIN cards_data c ON u.id=c.client_id
@@ -45,18 +45,13 @@ FROM users_data u
 LEFT JOIN cards_data c ON u.id=c.client_id;
 
 
--- SPENDING ANALYSIS 
-CREATE OR REPLACE VIEW vw_spending_analysis AS 
-SELECT t.client_id, t.date, DATE_FORMAT(t.date,'%Y-%m') month, t.amount, t.merchant_id, t.merchant_city, t.merchant_state, t.mcc, t.use_chip,
-c.card_type, 
-SUM(t.amount) OVER(PARTITION BY t.client_id) total_spending, 
-AVG(t.amount) OVER(PARTITION BY t.client_id) avg_transaction,
-COUNT(*) OVER(PARTITION BY t.client_id) total_transactions,
-MAX(t.amount) OVER(PARTITION BY t.client_id) highest_transaction,
-MIN(t.amount) OVER(PARTITION BY t.client_id) lowest_transaction
+-- SPENDING ANALYSIS
+CREATE OR REPLACE VIEW vw_spending_analysis AS
+SELECT t.client_id, t.date, DATE_FORMAT(t.date, '%Y-%m') AS month,
+t.amount, t.merchant_id, t.merchant_city, t.merchant_state, t.mcc, t.use_chip, c.card_type,c.card_brand
 FROM transactions_data t
-JOIN cards_data c ON t.card_id=c.id;
-
+JOIN cards_data c ON t.card_id = c.id;
+    
 
 -- CUSTOMER SEGMENTS 
 CREATE OR REPLACE VIEW vw_customer_segments AS
@@ -109,16 +104,13 @@ DENSE_RANK() OVER(ORDER BY(total_spending*(total_transactions/NULLIF(months_acti
 NTILE(4) OVER(ORDER BY(total_spending*(total_transactions/NULLIF(months_active,0))) DESC) customer_quartile
 FROM metrics;
 
-
--- CUSTOMER ACQUISITON
-CREATE OR REPLACE VIEW vw_customer_acquisition AS
+-- Top Merchant Cities
+CREATE OR REPLACE VIEW vw_top_merchant_cities AS
 SELECT
-YEAR(acct_open_date) year,
-MONTH(acct_open_date) month,
-COUNT(*) customers_acquired
-FROM cards_data
-GROUP BY
-YEAR(acct_open_date),
-MONTH(acct_open_date);
-
+    merchant_city,
+    ROUND(SUM(amount),2) AS total_revenue,
+    COUNT(*) AS total_transactions
+FROM transactions_data
+GROUP BY merchant_city
+ORDER BY total_revenue DESC;
 
