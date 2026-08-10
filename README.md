@@ -31,16 +31,13 @@ The analysis develops customer-level metrics for spending, transaction behavior,
 
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
 
-This project aims to:
-
-* Analyze customer demographics and financial profiles.
-* Identify high-value customers through spending and CLV analysis.
-* Understand customer spending behavior across merchants and locations.
-* Segment customers for targeted marketing and personalized services.
-* Detect customers at risk of churn using transaction history.
-* Measure customer acquisition trends and business growth.
-* Create business KPIs to support executive decision-making.
-
+- Identify high-value customers
+- Understand spending behavior
+- Segment customers
+- Analyze CLV
+- Evaluate customer activity/churn risk
+- Analyze acquisition
+- Monitor business KPIs
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
 This project uses a comprehensive financial dataset containing transaction records, customer information and card data from a banking institution spanning the 2010s.
