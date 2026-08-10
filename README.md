@@ -158,6 +158,24 @@ financial-transaction-analysis/
 
 │
 
+├── PowerBI/
+│   └── Dashboard.pdf
+
+│
+├── Screenshots/
+
+│   ├── Executive_Dashboard.png
+
+│   ├── Customer_Profile.png
+
+│   ├── Spending_Analysis.png
+
+│   ├── Customer_Insights.png
+
+│   └── Churn_Acquisition.png
+
+│ 
+
 └── README.md
 
 
