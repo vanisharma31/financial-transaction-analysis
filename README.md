@@ -249,7 +249,7 @@ financial-transaction-analysis/
   </tbody>
 </table>
 
-<p>The majority of customers (74.83%) belong to the Regular segment, while VIP customers account for only 2.30%, indicating a relatively small group of high-value customers.</p>
+<p>The majority of customers (74.54%) belong to the Regular segment, while VIP customers account for only 2.30%, indicating a relatively small group of high-value customers.</p>
 
 <strong>Customer Lifetime Value (CLV)</strong> 
 * Calculated customer lifetime metrics including: Total Spending, Average Spending, Transaction Frequency, Relationship Duration and Estimated CLV.
