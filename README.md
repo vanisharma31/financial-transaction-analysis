@@ -200,7 +200,7 @@ financial-transaction-analysis/
 
 
 
-<h2><a class="anchor" id="research-&amp;-key-findings"></a>Analysis &amp; Key Findings</h2>
+<h2><a class="anchor" id="analysis- &amp;-key-findings"></a>Analysis &amp; Key Findings</h2>
 
 <p>The analysis provides insights into customer demographics, spending behavior, customer value, segmentation, churn and overall business performance.</p>
 
