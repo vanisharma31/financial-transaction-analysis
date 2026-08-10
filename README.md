@@ -159,9 +159,11 @@ financial-transaction-analysis/
 │
 
 ├── PowerBI/
-│   └── Dashboard.pdf
+
+│   ├── Dashboard.pdf
 
 │
+
 ├── Screenshots/
 
 │   ├── Executive_Dashboard.png
