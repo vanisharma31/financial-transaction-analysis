@@ -191,10 +191,10 @@ financial-transaction-analysis/
 
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning &amp; Preparation</h2>
 
-* Validated and standardized data types for dates, numeric values and text fields to support accurate calculations and analysis.
-* Handled missing and blank values using NULLIF().
-* Checked for duplicate records and validated data consistency across the three tables.
-
+- Standardized date, numeric and text fields for consistent analysis.
+- Handled NULL, blank and invalid values and checked for duplicate records.
+- Validated relationships across customer, card and transaction data.
+- Created analytical SQL views to prepare the data for Power BI.
 
 
 <h2><a class="anchor" id="analysis- &amp;-key-findings"></a>Analysis &amp; Key Findings</h2>
