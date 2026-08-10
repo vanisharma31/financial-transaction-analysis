@@ -290,7 +290,7 @@ financial-transaction-analysis/
   </tr>
   <tr>
     <td>Total Spending</td>
-    <td>17,799,606.40</td>
+    <td>17,799,6060.40</td>
   </tr>
   <tr>
     <td>Average Transaction</td>
@@ -298,7 +298,7 @@ financial-transaction-analysis/
   </tr>
   <tr>
     <td>Average CLV</td>
-    <td>1,372,251.22</td>
+    <td>36,692.75</td>
   </tr>
   <tr>
     <td>Average Credit Score</td>
@@ -311,6 +311,10 @@ financial-transaction-analysis/
   <tr>
     <td>Average Total Debt</td>
     <td>56,636.18</td>
+  </tr>
+  <tr>
+    <td>Churn Rate</td>
+    <td>0%</td>
   </tr>
 </table> </p>
 
