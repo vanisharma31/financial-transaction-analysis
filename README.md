@@ -320,6 +320,7 @@ financial-transaction-analysis/
 </ul>
 </p>
 
+<h2><a class="anchor" id="power-bi-dashboards"></a>Power BI Dashboards</h2>
 
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 <ul>
