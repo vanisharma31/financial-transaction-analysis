@@ -1,6 +1,6 @@
 # 🧾 Financial Transaction Customer Analytics
 
-*Analyzed financial transaction data to evaluate customer spending, financial profiles and transaction behavior, with a focus on identifying valuable customer segments and understanding customer activity. Used SQL to build customer-level metrics, segmentation, CLV, spending and acquisition analyses, and Power BI to visualize the findings through an interactive analytics dashboard.*
+*Analyzed financial transaction data to evaluate customer spending, financial profiles and transaction behavior, with a focus on identifying valuable customer segments and understanding customer activity. Used SQL to build customer-level metrics, segmentation, CLV, spending and acquisition analyses and Power BI to visualize the findings through an interactive analytics dashboard.*
 
 
 
@@ -19,7 +19,11 @@
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-Financial institutions generate millions of customer transactions every day. Analyzing this data helps understand customer behavior, improve customer retention, identify high-value customers and support data-driven business decisions. This project performs an end-to-end customer analytics workflow using SQL, covering customer demographics, spending patterns, customer segmentation, customer lifetime value (CLV), churn analysis, customer acquisition and business KPIs.
+Financial institutions generate large volumes of customer transactions every day. Analyzing this data can reveal spending patterns, customer value, segment characteristics and changes in customer activity that support better retention and growth strategies.
+
+This project analyzes customer, card and transaction data using SQL and Power BI, covering customer demographics, spending behavior, segmentation, Customer Lifetime Value (CLV), customer acquisition and churn-risk analysis.
+
+The analysis develops customer-level metrics for spending, transaction behavior, segmentation, CLV, rankings and activity, which are brought together in a five-page Power BI dashboard covering Executive Performance, Customer Profile, Spending Analysis, Customer Insights and Churn & Acquisition.
 
 
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
