@@ -322,12 +322,13 @@ financial-transaction-analysis/
 
 
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
-* <strong>Strengthen VIP and Premium retention</strong> through personalized rewards, loyalty benefits and targeted offers, given their higher customer value and spending potential.
-* <strong>Use segment-specific engagement strategies</strong> by tailoring offers and services to the needs of Regular, Budget and Risk customers rather than applying a one-size-fits-all approach.
-* <strong>Monitor customer activity proactively</strong> using transaction inactivity signals to identify At-Risk customers and trigger timely engagement before prolonged inactivity.
-* <strong>Leverage transaction behavior</strong> across merchants, categories, cities and card usage to personalize offers and improve customer engagement.
-* <strong>Use CLV, spending and acquisition metrics</strong> to prioritize high-value customers, evaluate customer growth and guide future marketing and retention decisions.
-
+<ul>
+<li> <strong>Strengthen VIP and Premium retention</strong> through personalized rewards, loyalty benefits and targeted offers, given their higher customer value and spending potential.</li>
+<li> <strong>Use segment-specific engagement strategies</strong> by tailoring offers and services to the needs of Regular, Budget and Risk customers rather than applying a one-size-fits-all approach.</li>
+<li><strong>Monitor customer activity proactively</strong> using transaction inactivity signals to identify At-Risk customers and trigger timely engagement before prolonged inactivity.</li>
+<li> <strong>Leverage transaction behavior</strong> across merchants, categories, cities and card usage to personalize offers and improve customer engagement.</li>
+<li> <strong>Use CLV, spending and acquisition metrics</strong> to prioritize high-value customers, evaluate customer growth and guide future marketing and retention decisions. </li>
+</ul>
 
 <h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
 
