@@ -207,7 +207,7 @@ financial-transaction-analysis/
 
 <strong>Spending Analysis</strong> 
 * Analyzed spending trends across customers using transaction history.
-* The dataset includes 1,131 customers with a total spending of 17,799,606.40.
+* The dataset includes 1,131 customers with a total spending of 17,799,6060.40.
 * The average transaction value was 46.77.
 
 <strong>Customer Segmentation</strong>
@@ -314,7 +314,7 @@ financial-transaction-analysis/
 
 <p> <strong>Key Insights</strong> <br>
 <ul>
-  <li>The customer base is dominated by the Regular segment (74.83%), while VIP customers account for only 2.30%, indicating opportunities for targeted retention strategies.</li>
+  <li>The customer base is dominated by the Regular segment (74.54%), while VIP customers account for only 2.30%, indicating opportunities for targeted retention strategies.</li>
   <li>Spending and CLV analysis helps identify customers with greater value and different behavioral patterns.</li>
   <li>Customer acquisition and activity trends provide opportunities to improve engagement and retention strategies.</li>
 </ul>
