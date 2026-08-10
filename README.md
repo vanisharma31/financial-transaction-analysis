@@ -240,7 +240,7 @@ financial-transaction-analysis/
     <tr>
       <td>Regular</td>
       <td>Average Spending Customers</td>
-      <td>74.83%</td>
+      <td>74.54%</td>
     </tr>
     <tr>
       <td>Budget</td>
