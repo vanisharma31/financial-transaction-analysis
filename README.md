@@ -106,6 +106,7 @@ This project uses a comprehensive financial dataset containing transaction recor
 <h2><a class="anchor" id="tools- &amp;-technologies"></a>Tools &amp; Technologies</h2>
 
 * SQL (CTEs, Joins, Window Functions, Aggregate Functions, Views, Stored Procedures)
+* Power BI (Data Modeling, DAX, KPI Dashboards, Interactive Visualizations)
 * Excel
 * Git & GitHub
 
