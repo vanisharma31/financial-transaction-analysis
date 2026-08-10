@@ -14,7 +14,8 @@
 * <a href="#tools- &amp;-technologies">Tools \& Technologies</a>
 * <a href="#project-structure">Project Structure</a>
 * <a href="#data-cleaning--preparation">Data Cleaning \& Preparation</a>
-* <a href="#research- &amp;-key-findings">Research Questions \& Key Findings</a>
+* <a href="#analysis- &amp;-key-findings">Analysis \& Key Findings</a>
+* <a href="#power-bi-dashboards">Power BI Dashboards</a>
 * <a href="#final-recommendations">Final Recommendations</a>
 * <a href="#author- &amp;-contact">Author \& Contact</a>
 
