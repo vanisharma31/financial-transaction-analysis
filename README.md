@@ -322,14 +322,11 @@ financial-transaction-analysis/
 
 
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
-
-* <strong>Prioritize high-value customers</strong> by offering personalized rewards, exclusive benefits and loyalty programs to improve customer retention and maximize Customer Lifetime Value (CLV).
-* <strong>Develop targeted strategies for each customer segment.</strong> Design premium services for VIP and Premium customers, while creating engagement campaigns for Budget and Risk segments.
-* <strong>Implement proactive churn management</strong> by regularly monitoring inactive customers and launching timely retention campaigns before they become churned.
-* <strong>Leverage spending behavior insights</strong> to recommend relevant merchant categories, products and offers based on customer preferences and transaction history.
-* <strong>Optimize customer acquisition strategies</strong> by analyzing acquisition trends and focusing marketing efforts on the most effective time periods and customer segments.
-* <strong>Monitor key business KPIs</strong> such as Total Spending, Average Transaction Value, Customer Lifetime Value and Churn Rate through interactive dashboards to support data-driven decision-making.
-* <strong>Continuously update customer segmentation and CLV models</strong> as new transaction data becomes available to ensure business strategies remain relevant and effective.
+- **Strengthen VIP and Premium retention** through personalized rewards, loyalty benefits and targeted offers, given their higher customer value and spending potential.
+- **Use segment-specific engagement strategies** by tailoring offers and services to the needs of Regular, Budget and Risk customers rather than applying a one-size-fits-all approach.
+- **Monitor customer activity proactively** using transaction inactivity signals to identify At-Risk customers and trigger timely engagement before prolonged inactivity.
+- **Leverage transaction behavior** across merchants, categories, cities and card usage to personalize offers and improve customer engagement.
+- **Use CLV, spending and acquisition metrics** to prioritize high-value customers, evaluate customer growth and guide future marketing and retention decisions.
 
 
 <h2><a class="anchor" id="author- &amp;-contact"></a>Author &amp; Contact</h2>
