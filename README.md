@@ -263,6 +263,7 @@ financial-transaction-analysis/
 
 <strong>Churn Analysis</strong>
 * Classified customers as Active, At Risk, or Churned using transaction inactivity rules.
+* Churn was calculated relative to the dataset's maximum transaction date.
 * Based on the defined business rules, 1,128 customers were classified as active.
 
 <strong>Customer Acquisition</strong>
