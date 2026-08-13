@@ -207,7 +207,7 @@ financial-transaction-analysis/
 
 <strong>Spending Analysis</strong> 
 * Analyzed spending trends across customers using transaction history.
-* The dataset includes 1,131 customers with a total spending of 17,799,6060.40.
+* The dataset includes 1,131 customers with a total spending of 4,59,02,152.78.
 * The average transaction value was 46.77.
 
 <strong>Customer Segmentation</strong>
