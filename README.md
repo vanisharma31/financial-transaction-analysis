@@ -292,7 +292,7 @@ financial-transaction-analysis/
   </tr>
   <tr>
     <td>Average CLV</td>
-    <td>36,692.75</td>
+    <td>10,593.94</td>
   </tr>
   <tr>
     <td>Average Credit Score</td>
