@@ -203,7 +203,7 @@ financial-transaction-analysis/
 
 <strong>Customer Demographics</strong> 
 * Analyzed customer demographics including age, gender, annual income, debt and credit score.
-* The average annual income was 45,011.92, with an average credit score of 714.03.
+* The average annual income was 45,313.31, with an average credit score of 709.73.
 
 <strong>Spending Analysis</strong> 
 * Analyzed spending trends across customers using transaction history.
