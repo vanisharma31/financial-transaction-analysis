@@ -300,7 +300,7 @@ financial-transaction-analysis/
   </tr>
   <tr>
     <td>Average Annual Income</td>
-    <td>45,011.92</td>
+    <td>45,313.31</td>
   </tr>
   <tr>
     <td>Average Total Debt</td>
