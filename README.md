@@ -304,11 +304,11 @@ financial-transaction-analysis/
   </tr>
   <tr>
     <td>Average Total Debt</td>
-    <td>56,636.18</td>
+    <td>57,644.72</td>
   </tr>
   <tr>
     <td>Churn Rate</td>
-    <td>0%</td>
+    <td>0</td>
   </tr>
 </table> </p>
 
